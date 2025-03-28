@@ -23,7 +23,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.ajroot5685:simple-excel-builder:1.0.0'
+    implementation 'com.github.ajroot5685:SimpleExcelBuilder:v0.1.0'
 }
 ```
 
