@@ -25,7 +25,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.ajroot5685:SimpleExcelBuilder:v0.1.0'
+    implementation 'com.github.ajroot5685:SimpleExcelBuilder:v0.1.2'
 }
 ```
 
@@ -39,10 +39,10 @@ dependencies {
 
 ```java
 public class AutoExampleDto {
-    @XLSXColumn(header = "번호")
+    @ExcelColumn(header = "번호")
     private final String no;
 
-    @XLSXColumn(header = "이름")
+    @ExcelColumn(header = "이름")
     private final String name;
 
     public AutoExampleDto(String no, String name) {

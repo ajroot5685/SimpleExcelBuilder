@@ -23,7 +23,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.ajroot5685:SimpleExcelBuilder:v0.1.0'
+    implementation 'com.github.ajroot5685:SimpleExcelBuilder:v0.1.2'
 }
 ```
 
@@ -37,10 +37,10 @@ First, define the Excel DTO to be delivered.
 
 ```java
 public class AutoExampleDto {
-    @XLSXColumn(header = "No")
+    @ExcelColumn(header = "No")
     private final String no;
 
-    @XLSXColumn(header = "name")
+    @ExcelColumn(header = "name")
     private final String name;
 
     public AutoExampleDto(String no, String name) {
