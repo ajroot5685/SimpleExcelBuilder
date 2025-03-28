@@ -2,6 +2,8 @@
 
 A lightweight Java library for generating simple `.xlsx` Excel files with annotation-based or manual column mapping.
 
+[![](https://jitpack.io/v/ajroot5685/SimpleExcelBuilder.svg)](https://jitpack.io/#ajroot5685/SimpleExcelBuilder)
+
 ---
 
 ## ✨ Features
