@@ -6,7 +6,7 @@
 
 [![](https://jitpack.io/v/ajroot5685/SimpleExcelBuilder.svg)](https://jitpack.io/#ajroot5685/SimpleExcelBuilder)
 
----
+<br>
 
 ## ✨ 기능
 
@@ -15,7 +15,7 @@
 - ✅ 파일, 스트림 또는 서블릿 응답으로 출력
 - ✅ Apache POI 기반(SXSSFworkbook 사용)
 
----
+<br>
 
 ## 📦 설치 (JitPack)
 
@@ -29,7 +29,13 @@ dependencies {
 }
 ```
 
----
+<br>
+
+## 🐣 사용 결과
+
+![result_KR](/docs/result_KR.png)
+
+<br>
 
 ## 🧩 애노테이션 기반 예시(추천)
 
@@ -74,7 +80,7 @@ public class FileOutputExample {
 }
 ```
 
----
+<br>
 
 ## 🍃 서블릿/스프링에서의 애노테이션 기반 예시
 
@@ -117,7 +123,7 @@ public class ServletOutputExampleService {
 }
 ```
 
----
+<br>
 
 ## 📝 Manual Mapping Example
 
@@ -176,7 +182,7 @@ public class FileOutputExample {
 }
 ```
 
----
+<br>
 
 ## 👀 더 많은 정보를 원한다면..
 

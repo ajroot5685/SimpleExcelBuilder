@@ -4,7 +4,7 @@ A lightweight Java library for generating simple `.xlsx` Excel files with annota
 
 [![](https://jitpack.io/v/ajroot5685/SimpleExcelBuilder.svg)](https://jitpack.io/#ajroot5685/SimpleExcelBuilder)
 
----
+<br>
 
 ## ✨ Features
 
@@ -13,7 +13,7 @@ A lightweight Java library for generating simple `.xlsx` Excel files with annota
 - ✅ Output to file, stream, or servlet response
 - ✅ Apache POI-based (uses SXSSFWorkbook)
 
----
+<br>
 
 ## 📦 Installation (via JitPack)
 
@@ -27,7 +27,13 @@ dependencies {
 }
 ```
 
----
+<br>
+
+## 🐣 Use Result
+
+![result_EN](/docs/result_EN.png)
+
+<br>
 
 ## 🧩 Annotation-based Example(Recommend)
 
@@ -72,7 +78,7 @@ public class FileOutputExample {
 }
 ```
 
----
+<br>
 
 ## 🍃 Annotation-based Example with Servlet/Spring
 
@@ -116,7 +122,7 @@ public class ServletOutputExampleService {
 }
 ```
 
----
+<br>
 
 ## 📝 Manual Mapping Example
 
@@ -176,7 +182,7 @@ public class FileOutputExample {
 }
 ```
 
----
+<br>
 
 ## 👀 For more information..
 
